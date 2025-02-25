@@ -85,10 +85,10 @@ function LoginSignup() {
                 )}
 
                
-                <div className="mt-5 flex space-x-4">
+                <div className="mt-5 flex space-x-4 ">
                     <button
                         onClick={() => setAction("Login")}
-                        className={`px-6 py-2 rounded-lg shadow-md cursor-pointer ${action === "Login" ? "bg-blue-600 text-white" : "bg-blue-500 text-white hover:bg-blue-600"}`}
+                        className={`px-6 py-2 rounded-lg shadow-md pt-3 cursor-pointer ${action === "Login" ? "bg-blue-600 text-white" : "bg-blue-500 text-white hover:bg-blue-600"}`}
                     >
                         Login
                     </button>
