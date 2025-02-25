@@ -76,12 +76,12 @@ function LoginSignup() {
 
                 
                 {action === "Sign Up" && (
-                    <div className="mt-5">
-                        <p className="text-sm text-white">
-                            Bhul Gya Na, Password? {" "}
-                            <span className="cursor-pointer text-blue-300 font-semibold">Muje Dabao!</span>
-                        </p>
-                    </div>
+                    <div className="mt-5 backdrop-blur-md bg-white/30 p-3 rounded-lg">
+                    <p className="text-sm text-white">
+                        Bhul Gya Na, Password? {" "}
+                        <span className="cursor-pointer text-blue-300 font-semibold">Muje Dabao!</span>
+                    </p>
+                </div>
                 )}
 
                
